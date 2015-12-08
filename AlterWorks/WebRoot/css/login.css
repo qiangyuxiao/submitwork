@@ -1,0 +1,79 @@
+@CHARSET "UTF-8";
+*{
+            margin:0 0;
+            padding:0 0;
+        }
+        .wrap{
+            width:100%;
+        }
+        .header{
+            border:1px solid #00e6e6;
+            background: #55cfed;
+            height:150px;
+        }
+        img{
+            margin-top:30px;
+            margin-left:150px;
+
+        }
+        .name{
+            position: absolute;
+            left:350px;
+            top:100px;
+            color: white;
+        }
+        .content{
+            background: url("../imges/backgroundimg.jpg") no-repeat 150px 70px;
+            width:100%;
+            height:350px;
+            background-color: #d29c2a;
+            font-family: '微软雅黑';
+        }
+        .form{
+            border:8px solid #1c9ded;
+            width:400px;
+            height:450px;
+            position: absolute;
+            right:350px;
+            top:100px;
+            background-color:#55cfed ;
+            border-radius:10px;
+        }
+        h1{
+            text-align: center;
+            padding:20px;
+        }
+        .username,.pass{
+            margin: 50px 30px;
+            font-size:24px;
+        }
+        input[type="text"],input[type="password"]{
+            margin-left:20px;
+            width:200px;
+            height:25px;
+            font-size:18px;
+        }
+        input[type="password"]{
+            margin-left:35px;
+        }
+        .error{
+        	
+        	position:absolute;
+        	right:20px;
+        	font-size:18px;
+        	color:red;
+        }
+        input[type="submit"]{
+            border:none;
+            cursor:pointer;
+            display: inline-block;
+            width:106px;
+            height:41px;
+            background: url(../imges/login_button.png) 0 0 no-repeat;
+            margin-left:133px;
+            margin-top:10px;
+        }
+        .footer{
+            background-color: #57d4f2;
+            height:162px;
+        }
